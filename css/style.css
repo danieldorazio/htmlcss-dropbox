@@ -39,7 +39,7 @@ header{
 
 /* NAV */
 nav .nav-l, .nav-r{
-    background-color: blue;  /*debug*/
+    background-color: rgb(205, 205, 240);  /*debug*/
     height: 50px;     
 }
 
@@ -96,8 +96,8 @@ nav .nav-l, .nav-r{
     background-color: beige;
 }
 
-/* PATNER */
-.patner{
+/* PARTNER */
+.partner{
     width: 100%;
     margin-bottom: 50px;
     /*debug*/
@@ -106,15 +106,39 @@ nav .nav-l, .nav-r{
     background-color: rgb(218, 218, 108);
 }
 
-.patner-img{
+.partner-img{
     width:70%;
     /*debug*/
     min-height: 50px;
     border:1px solid black;
 }
-.patner-text{
+.partner-text{
     width: 30%;
     /*debug*/
     min-height: 50px;
     border:1px solid black 
+}
+
+
+/* PUBLICITY non si vedono le cards*/
+.publicity{
+    width: 100%;
+    margin-bottom: 50px;
+    /*debug*/
+    min-height: 300px;
+    border: 1px solid black;
+    background-color: rgb(219, 219, 176);
+}
+
+.publicity-main.flex{
+    flex-wrap: wrap;
+}
+
+.publicity-cards{
+    width: calc(100% / 3);
+    /*debug*/
+    min-height: 150px;
+    border:1px solid black;
+    background-color: aqua;
+    
 }
