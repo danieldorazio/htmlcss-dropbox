@@ -151,3 +151,17 @@ nav .nav-l, .nav-r{
     border: 1px solid black;
     background-color: rgb(237, 171, 143);
 }
+
+/* SPONSOR */
+.sponsor{
+    width: 100%;
+    /*debug*/
+    min-height: 500px;
+    border: 1px solid black;
+    background-color: rgb(179, 117, 90);
+}
+.sponsor-l, .sponsor-text, .sponsor-r{
+    width: calc(100% / 3);
+    /*debug*/
+    border: 1px solid black;
+}
