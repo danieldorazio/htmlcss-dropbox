@@ -6,17 +6,22 @@
 img{
     max-width: 100%;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ROOT */
+:root{
+    --button-blu: #0061FF;
+}
 
 /* COMMON */
 .flex{
     display: flex;
 }
-
-nav.flex{
-    justify-content: space-between;
-}
 .container-large{
     width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     /*debug*/
     background-color: rgb(208, 193, 222); 
@@ -24,24 +29,55 @@ nav.flex{
 } 
 .container-small{
     width: 85%;
+    max-width: 1100px;
     margin: 0 auto;
     /*debug*/
     background-color: rgb(93, 128, 120); 
     min-height: 500px; 
 } 
+.ul-none{
+    list-style-type: none;
+}
+.a-none{
+    text-decoration: none;
+}
+
 
 /* HEADER */
 header{
     width: 100%;
     height: 50px;
-    background-color: aqua;  /*debug*/
+    background-color: aqua;
+    line-height: 50px;
 }
 
 /* NAV */
 nav .nav-l, .nav-r{
     background-color: rgb(205, 205, 240);  /*debug*/
-    height: 50px;     
+    
 }
+nav.flex{
+        justify-content: space-between;
+        align-items: center;
+}
+nav a{
+    color: black;
+}
+
+.nav-l a> img{
+    vertical-align: middle; 
+}
+
+.nav-l li, .nav-r li{
+    padding: 0 10px;
+}
+
+.nav-r .button{
+    padding: .3rem .6rem ;
+    background-color: var(--button-blu);
+    color: white;
+}
+
 
 /* HERO */
 .hero{
