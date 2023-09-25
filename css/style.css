@@ -167,6 +167,11 @@ nav .nav-l, .nav-r{
 }
 
 /* AGENCY */
+.agency{
+    /*debug*/
+    background-color: blueviolet;
+    margin-bottom: 50px;  
+}
 .agency-main{
     /*debug*/
     min-height: 200px;
@@ -177,4 +182,10 @@ nav .nav-l, .nav-r{
     width: calc(100% / 2);
     /*debug*/
     border: 1px solid black;
+}
+
+/* FAQ */
+
+.question{
+    background-color: antiquewhite;
 }
