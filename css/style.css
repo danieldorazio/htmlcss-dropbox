@@ -223,8 +223,9 @@ nav a{
 /* FAQ */
 
 .question{
-    background-color: antiquewhite;
     margin-bottom: 50px;
+    /*debug*/
+    background-color: antiquewhite;
 }
 
 /* FOOTER */
@@ -236,16 +237,25 @@ footer{
 
 /* FOOTER-TOP */
 .footer-top{
+    padding: 50px 0;
+    /* debug */
     background-color: beige;
-    border: 1px solid black;
-    margin-bottom: 50px;
 }
 .footer-top.flex{
    justify-content: space-between;
 }
-.footer-link{
+.footer-link{  
     /*debug*/
     background-color: rgb(205, 178, 145);
+}
+
+.footer-link h4, li{
+    padding-bottom: 10px;
+    color: white;
+}
+
+.footer-link a{
+    color: white;
 }
 
 /* FOOTER-BOTTOM */
