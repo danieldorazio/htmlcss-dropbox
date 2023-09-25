@@ -188,4 +188,32 @@ nav .nav-l, .nav-r{
 
 .question{
     background-color: antiquewhite;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(162, 239, 239);
+}
+
+/* FOOTER-TOP */
+.footer-top{
+    background-color: beige;
+    border: 1px solid black;
+}
+.footer-top.flex{
+   justify-content: space-between;
+}
+
+.footer-link{
+    background-color: rgb(205, 178, 145);
+    
+}
+/* FOOTER-BOTTOM */
+.footer-bottom{
+    /*debug*/
+    background-color: beige;
+    border: 1px solid black;
 }
