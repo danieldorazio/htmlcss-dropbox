@@ -85,13 +85,31 @@ nav a{
     margin-bottom: 50px;
 }
 
+/* HERO-TEXT */
+.hero h1{
+    font-weight:800;
+    font-size: 3rem;
+    padding: 30px 0;
+}
 .hero-text{
     width: 30%;
     padding-right: 10px;
     /*debug*/
-    min-height: 50px;
     border:1px solid black 
 }
+.hero-text p, div{
+    padding-bottom: 20px;
+}
+
+.hero-text .button{
+    display: inline-block;
+    margin-bottom: 20px ;
+    padding: .3rem .6rem ;
+    background-color: var(--button-blu);
+    color: white;
+}
+
+/* HERO-IMG */
 .hero-img{
     width:70%;
     /*debug*/
