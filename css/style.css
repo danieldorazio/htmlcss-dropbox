@@ -46,17 +46,17 @@ nav .nav-l, .nav-r{
 /* HERO */
 .hero{
     background-color: #b4d0e7;
+    margin-bottom: 50px;
 }
 
-.hero-main .hero-text{
+.hero-text{
     width: 30%;
     padding-right: 10px;
     /*debug*/
     min-height: 50px;
-    border:1px solid black
-    
+    border:1px solid black 
 }
-.hero-main .hero-img{
+.hero-img{
     width:70%;
     /*debug*/
     min-height: 50px;
@@ -65,9 +65,10 @@ nav .nav-l, .nav-r{
 
 /* MAIN */
 
+/* BUSINESS */
 .business{
-    margin-top: 50px;
     width: 100%;
+    margin-bottom: 50px;
     /*debug*/
     min-height: 400px;
     background-color: aqua;
@@ -89,7 +90,31 @@ nav .nav-l, .nav-r{
 
 .business-card-bottom{
     width: 100%;
+    /*debug*/
     min-height: 100px;
     border: 1px solid black;
     background-color: beige;
+}
+
+/* PATNER */
+.patner{
+    width: 100%;
+    margin-bottom: 50px;
+    /*debug*/
+    min-height: 300px;
+    border: 1px solid black;
+    background-color: rgb(218, 218, 108);
+}
+
+.patner-img{
+    width:70%;
+    /*debug*/
+    min-height: 50px;
+    border:1px solid black;
+}
+.patner-text{
+    width: 30%;
+    /*debug*/
+    min-height: 50px;
+    border:1px solid black 
 }
