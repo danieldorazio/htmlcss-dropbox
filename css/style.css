@@ -331,10 +331,53 @@ nav a{
     border: 1px solid black;
     background-color: rgb(179, 117, 90);
 }
-.sponsor-l, .sponsor-text, .sponsor-r{
+.sponsor-img, .sponsor-text{
     width: calc(100% / 3);
     /*debug*/
     border: 1px solid black;
+}
+.sponsor-img.flex{
+    flex-wrap: wrap;
+}
+/* SONSOR-IMG */
+.sponsor-img div{
+    width: calc(100% / 2);
+    height: 50%;
+}
+.sponsor-img> .flex{
+    align-items: center;
+    justify-content: center;
+}
+.sponsor-img img{
+    width: 60%;  
+    filter: invert(100%);
+}
+
+/* SPONSOR-DIV */
+.sponsor-img .designit{
+   background-color: #A2D39B; 
+   /*border: 3px inset #A2D39B;*/
+}
+.sponsor-img .arizona{
+    background-color: #61082B;
+}
+.sponsor-img .university{
+    background-color: #43AECD;
+}
+.sponsor-img .topps{
+    background-color: #FF1C1C;
+}
+.sponsor-img .world{
+    background-color: #D5001F;
+}
+.sponsor-img .hearst{
+    background-color: #B4D0E7;
+}
+.sponsor-img .lonely{
+    background-color: #0D2481;
+}
+.sponsor-img .clear{
+    background-color: #FFD830;
 }
 
 /* AGENCY */
