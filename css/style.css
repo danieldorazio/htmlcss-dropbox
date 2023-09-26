@@ -13,6 +13,8 @@ body{
 /* ROOT */
 :root{
     --button-blu: #0061FF;
+    --button-white: #ffffff;
+    --border: #E4E4E6;
 }
 
 /* COMMON */
@@ -49,6 +51,12 @@ body{
     background-color: var(--button-blu);
     padding: .3rem .6rem;
     color: white;
+}
+.button-white{
+    display: inline-block;
+    background-color: var(--button-white);
+    padding: .3rem .6rem;
+    border: 1px solid #040404;
 }
 
 /* HEADER */
@@ -136,7 +144,7 @@ nav a{
 /* BUSINESS */
 .business{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 /* BUSINESS FORM */
@@ -159,7 +167,7 @@ nav a{
     width: calc(100% / 3);
     /*debug*/
     min-height: 300px;
-    border: 1px solid black;
+    border: 1px solid var(--border);
 }
 
 .business-card .container-card{
@@ -169,7 +177,7 @@ nav a{
 
 
 .business-card> .profilo{
-    border: 1px solid black; /*debug*/
+    border-bottom: 1px solid var(--border);
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -186,7 +194,7 @@ nav a{
     font-size: 2rem
 }
 .subscription .duration-sub{
-    color: rgba(0, 0, 0, 0.686);
+    color: var(--border);
 }
 
 /* OFFER */
@@ -228,7 +236,7 @@ nav a{
 /* BUSINESS-CARD-BOTTOM  */
 .business-card-bottom{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--border); 
     
 }
 .business-card-bottom .container-card{
@@ -237,7 +245,7 @@ nav a{
 }
 
 .business-card-bottom .profilo{
-    border: 1px solid black; /*debug*/
+    border-bottom: 1px solid var(--border); 
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -252,27 +260,32 @@ nav a{
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
+
 /* PARTNER */
 .partner{
     width: 100%;
     margin-bottom: 50px;
-    /*debug*/
-    min-height: 300px;
-    border: 1px solid black;
-    background-color: rgb(218, 218, 108);
+}
+.partner.flex{
+    justify-content: space-between;
 }
 
 .partner-img{
-    width:70%;
-    /*debug*/
-    min-height: 50px;
-    border:1px solid black;
+    width:60%;
+
 }
 .partner-text{
-    width: 30%;
-    /*debug*/
-    min-height: 50px;
-    border:1px solid black 
+    width: 35%;
+    align-self: center;
+}
+.partner-text h3{
+    font-size: 1.5rem;
+}
+.partner-text p{
+    margin: 1rem 0;
+}
+.partner-text .button-white{
+    margin: 1rem 0;
 }
 
 
