@@ -137,9 +137,6 @@ nav a{
 .business{
     width: 100%;
     margin-bottom: 50px;
-    /*debug*/
-    min-height: 400px;
-    background-color: aqua;
 }
 
 /* BUSINESS FORM */
@@ -156,6 +153,7 @@ nav a{
 /* BUSINESS CARD */
 .business-options{
     width: 100%;
+    margin-bottom: 50px;
 }
 .business-card{
     width: calc(100% / 3);
@@ -227,13 +225,32 @@ nav a{
 }
 
 
-
+/* BUSINESS-CARD-BOTTOM  */
 .business-card-bottom{
     width: 100%;
-    /*debug*/
-    min-height: 100px;
     border: 1px solid black;
-    background-color: beige;
+    
+}
+.business-card-bottom .container-card{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.business-card-bottom .profilo{
+    border: 1px solid black; /*debug*/
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.business-card-bottom .subscription{
+    width: 70%;
+}
+.business-card-bottom .office{
+    width: 30%;
+    text-align: end;
+}
+.business-card-bottom p{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 /* PARTNER */
 .partner{
