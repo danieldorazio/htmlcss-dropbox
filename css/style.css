@@ -326,15 +326,9 @@ nav a{
 /* SPONSOR */
 .sponsor{
     width: 100%;
-    /*debug*/
-    min-height: 500px;
-    border: 1px solid black;
-    background-color: rgb(179, 117, 90);
 }
 .sponsor-img, .sponsor-text{
     width: calc(100% / 3);
-    /*debug*/
-    border: 1px solid black;
 }
 .sponsor-img.flex{
     flex-wrap: wrap;
@@ -379,6 +373,21 @@ nav a{
 .sponsor-img .clear{
     background-color: #FFD830;
 }
+
+/* SPONSOR-TEXT */
+.sponsor-text{
+    padding: 3rem;
+    overflow-y: scroll; /*compare alla necessità*/
+    height:500px;
+    
+}
+.sponsor-text hr{
+    margin: 2rem 0;
+    width: 20%;
+    color: var(--border);
+
+}
+
 
 /* AGENCY */
 .agency{
