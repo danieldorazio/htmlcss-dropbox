@@ -44,6 +44,12 @@ body{
 .relative{
     position: relative;
 }
+.button-blu{
+    display: inline-block;
+    background-color: var(--button-blu);
+    padding: .3rem .6rem;
+    color: white;
+}
 
 /* HEADER */
 header{
@@ -73,10 +79,8 @@ nav a{
     vertical-align: middle; 
 }
 
-.nav-r .button{  
-    padding: .2rem .5rem;
-    background-color: var(--button-blu);
-    color: white;
+.nav-r .button-blu{  
+   display: inline;
 }
 
 
@@ -109,12 +113,9 @@ nav a{
     padding-bottom: 20px;
 }
 
-.hero-text .button{
-    display: inline-block;
+.hero-text .button-blu{
     margin-bottom: 20px ;
-    padding: .3rem .6rem ;
-    background-color: var(--button-blu);
-    color: white;
+    
 }
 
 .hero-text .icon{
@@ -141,19 +142,87 @@ nav a{
     background-color: aqua;
 }
 
-.business-options{
-    width: 100%;
-    /*debug*/
-    min-height: 300px;
-    background-color: beige;
+/* BUSINESS FORM */
+.business> form{
+    margin: 30px 0;
 }
 
+.business form> label{
+    padding-right: 2rem;
+}
+
+
+
+/* BUSINESS CARD */
+.business-options{
+    width: 100%;
+}
 .business-card{
     width: calc(100% / 3);
     /*debug*/
     min-height: 300px;
     border: 1px solid black;
 }
+
+.business-card .container-card{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.business-card> .profilo{
+    border: 1px solid black; /*debug*/
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* SUBSCRIPTION */
+.subscription> span{
+    display:block;
+    padding: 5px 0;
+}
+.subscription .type-sub, .subscription .price-sub{
+    font-weight: 800;
+}
+.subscription .type-sub{
+    font-size: 2rem
+}
+.subscription .duration-sub{
+    color: rgba(0, 0, 0, 0.686);
+}
+
+/* OFFER */
+.offer{
+    margin: 20px 0;
+}
+.offer> li{
+    padding: 5px 0;
+}
+
+/* TRIAL */
+.trial{
+    text-align: center;
+}
+.trial> .button-blu{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container-card hr{
+    margin: 50px 0;
+    width: 25%;
+}
+
+/* SUMMARY */
+.summary li{
+    padding: 5px 0;
+}
+.summary .li-title{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
 
 .business-card-bottom{
     width: 100%;
@@ -162,7 +231,6 @@ nav a{
     border: 1px solid black;
     background-color: beige;
 }
-
 /* PARTNER */
 .partner{
     width: 100%;
