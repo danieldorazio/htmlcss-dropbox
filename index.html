@@ -22,16 +22,16 @@
         <nav class="flex">
             
                 <ul class="ul-none nav-l flex ">
-                    <li><a class="a-none a" href=""><img src="img/logo-small.png" alt="Logo Dropbox"></a></li>
-                    <li><a class="a-none" href="">Perchè Dropbox</a></li>
-                    <li><a class="a-none" href="">Funzioni</a></li>
-                    <li><a class="a-none" href="">Piani e Prezzi</a></li>
+                    <li><a class="a-none a" href="#hero"><img src="img/logo-small.png" alt="Logo Dropbox"></a></li>
+                    <li><a class="a-none" href="#faq">Perchè Dropbox</a></li>
+                    <li><a class="a-none" href="#publicity">Funzioni</a></li>
+                    <li><a class="a-none" href="#business">Piani e Prezzi</a></li>
                 </ul>
             
             
                 <ul class="ul-none nav-r flex">
-                    <li><a class="a-none" href="">Supporto</a></li>
-                    <li><a class="a-none" href="">Contatta l'ufficio vendite</a></li>
+                    <li><a class="a-none" href="#footer-top">Supporto</a></li>
+                    <li><a class="a-none" href="#footer-top">Contatta l'ufficio vendite</a></li>
                     <li><a class="a-none" href="">Accedi</a></li>
                     <li><a class=" button a-none" href="">Inizia</a></li>
                 </ul>
@@ -41,21 +41,24 @@
 
     <!-- HERO -->
     <!-- CONTAINER-LARGE -->
-    <section class="hero container-large">
+    <section class="hero container-large " id="hero">
         <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-        <div class="hero-main flex">
-            <div class="hero-text">
+        <div class="hero-main  flex">
+            <!-- HERO-TEXT -->
+            <div class="hero-text ">
                 <p>
                     Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                 </p>
-                <div class="button"> <!--ancore tag--> 
+                <a class="button a-none" href="">
                     Inizia la tua prova graduita
-                </div>
+                </a>
                 <div>Annulla in qualsiasi momento</div>
-                <div><i class="fa-solid fa-arrow-down fa-xl"></i></div>
+                <a class="a-none icon" href="#business"><i class="fa-solid fa-arrow-down fa-xl"></i></a>
             </div>
-
-            <div class="hero-img">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, optio deleniti, dignissimos error natus cumque unde nulla architecto rerum dolore dolor vel ratione ducimus vero! Aliquid possimus odio culpa. Deserunt.</div>
+            <!-- HERO-IMG -->
+            <div class="hero-img ">
+                <img src="img/jumbo.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -64,7 +67,7 @@
     <main class="container-small">
 
         <!-- BUSINESS -->
-        <section class="business">
+        <section class="business" id="business">
             <h2>BUSINESS</h2>
             <!--<form>
                 <input>
@@ -85,7 +88,7 @@
         </section>
 
         <!-- PUBLICITY-->
-        <section class="publicity">
+        <section class="publicity" id="publicity">
             <h3>PUBLICITY</h3>
             <div class="publicity-main flex">
                 <div class="publicity-cards">
@@ -145,7 +148,7 @@
     </div>
 
     <!-- FAQ -->
-    <section class="faq container-small">
+    <section class="faq container-small" id="faq">
         <h3>DOMANDE FREQUENTI</h3>
         <ul class="question">
             <li><hr></li>
@@ -162,7 +165,7 @@
     <footer>
 
         <!-- FOOTER-TOP -->
-        <section class="footer-top container-large flex">
+        <section class="footer-top container-large flex" id="footer-top">
             <ul class="footer-link ul-none">
                 <li><h4>Dropbox</h4></li>
                 <li><a class="a-none" href="">Applicazione desktop</a></li>
