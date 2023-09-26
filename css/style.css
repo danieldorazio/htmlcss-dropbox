@@ -60,6 +60,7 @@ h2{
     background-color: var(--button-white);
     padding: .3rem .6rem;
     border: 1px solid #040404;
+    color: black;
 }
 
 /* HEADER */
@@ -391,20 +392,22 @@ nav a{
 
 /* AGENCY */
 .agency{
-    /*debug*/
+    padding-top: 50px;
     background-color: #B4D0E7;
     margin-bottom: 50px;  
 }
 .agency-main{
-    /*debug*/
     min-height: 200px;
-    border: 1px solid black;
-    background-color: rgb(208, 188, 179);
 }
 .agency-text, .agency-button{
     width: calc(100% / 2);
-    /*debug*/
-    border: 1px solid black;
+}
+.agency-text.flex{
+    align-items: center;
+}
+.agency-button.flex{
+    align-items: center;
+    justify-content: end;
 }
 
 /* FAQ */
