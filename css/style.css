@@ -221,6 +221,10 @@ nav a{
     font-weight: bold;
     padding-bottom: 20px;
 }
+.summary i{
+    padding-right: 5px;
+    color: var(--button-blu);
+}
 
 
 
