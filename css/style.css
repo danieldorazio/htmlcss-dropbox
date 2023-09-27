@@ -25,12 +25,12 @@ h2{
     display: flex;
 }
 .container-large{
-    width: 90%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 } 
 .container-small{
-    width: 85%;
+    width: 60%;
     max-width: 1100px;
     margin: 0 auto;
 } 
@@ -50,6 +50,9 @@ h2{
     padding: .3rem .6rem;
     color: white;
 }
+.button-blu:hover{
+    filter: brightness(1.4);
+}
 .button-white{
     display: inline-block;
     background-color: var(--button-white);
@@ -57,7 +60,9 @@ h2{
     border: 1px solid #040404;
     color: black;
 }
-
+.button-white:hover{
+    filter: brightness(1.2);
+}
 /* HEADER */
 header{
     width: 100%;
@@ -67,13 +72,13 @@ header{
     background-color: white;
     position: fixed;
     z-index: 9999;
-
 }
 
 /* NAV */
-nav .nav-l, .nav-r{
+nav .nav-l, nav .nav-r{
     gap: 1rem;
 }
+
 nav.flex{
         justify-content: space-between;
         align-items: center;
@@ -90,6 +95,10 @@ nav a{
    display: inline;
 }
 
+.nav-l li:hover, .nav-r li:hover{
+    border-bottom: 2px solid black;
+}
+
 
 /* HERO */
 .hero{
@@ -99,6 +108,9 @@ nav a{
     min-height: 600px;   
 }
 .hero-main{
+    position: relative;
+    top:50px;
+    left: 0;
     /*debug*/
     border: 2px solid black;
 }
@@ -125,7 +137,7 @@ nav a{
     
 }
 
-.hero-text .icon{
+.hero-text .icon{  /*usare absolute*/
     font-size: 2rem;
     color: black;
 }
@@ -162,7 +174,7 @@ nav a{
     width: 100%;
     margin-bottom: 50px;
 }
-.business-card{
+.business-card{  /*dare spazio con just*/
     width: calc(100% / 3);
     /*debug*/
     min-height: 300px;
@@ -196,7 +208,7 @@ nav a{
     color: var(--border);
 }
 
-/* OFFER */
+/* OFFER */ /*dare dyplay flex*/
 .offer{
     margin: 20px 0;
 }
@@ -373,8 +385,8 @@ nav a{
 /* SPONSOR-TEXT */
 .sponsor-text{
     padding: 3rem;
-    overflow-y: scroll; /*compare alla necessità*/
-    height:500px;
+    overflow-y: auto; /*compare alla necessità*/
+    height:550px;
     
 }
 .sponsor-text hr{
@@ -430,7 +442,6 @@ nav a{
 /* FOOTER */
 footer{
     width: 100%;
-    min-height: 500px;
     background-color: rgb(0, 0, 0);
 }
 
