@@ -18,6 +18,7 @@ h2{
     --button-blu: #0061FF;
     --button-white: #ffffff;
     --border: #E4E4E6;
+
 }
 
 /* COMMON */
@@ -104,8 +105,7 @@ nav a{
 .hero{
     background-color: #B4D0E7;
     padding-top: 60px;
-    margin-bottom: 60px;
-    min-height: 600px;   
+    margin-bottom: 60px;   
 }
 .hero-main{
     position: relative;
@@ -116,7 +116,7 @@ nav a{
 /* HERO-TEXT */
 .hero h1{
     font-weight:800;
-    font-size: 3rem;
+    font-size: clamp(10px, calc(2.5vw + .5rem), 60px);
     padding-top: 3rem;
    
 }
@@ -125,6 +125,8 @@ nav a{
     padding-right: 10px;
     font-size: clamp(8px, calc(.6vw + .5rem), 30px);
 }
+
+
 .hero-text p,.hero-text div{
     padding-bottom: 20px;
 }
@@ -162,6 +164,11 @@ nav a{
 
 .business form> label{
     padding-right: 2rem;
+}
+.business input{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 
 
@@ -401,7 +408,6 @@ nav a{
 
 /* AGENCY */
 .agency{
-    padding-top: 50px;
     background-color: #B4D0E7;
     margin-bottom: 50px;  
 }
